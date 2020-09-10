@@ -1,0 +1,13 @@
+p{
+	color: cyan;
+	font-weight: bold;
+	background-color: crimson;
+	width: 800px;
+}
+h2{
+	background-color: dodgerblue;
+	width: 400px;
+}
+body{
+	background-color: antiquewhite; 
+}

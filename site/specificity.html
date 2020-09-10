@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>specificity-check</title>
+	<style type="text/css">
+		header.just p{
+			color: blue;
+		}
+		p.again{
+			color: green;
+			width: 200px;
+		}
+		p{
+			color: red !important;
+		}
+	</style>
+</head>
+<body>
+	<header class="just">
+		<p class="again">Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!Here ngoes the random crap!!</p>
+	</header>
+</body>
+</html>

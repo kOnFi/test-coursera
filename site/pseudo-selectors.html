@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pseudo class</title>
+	<style type="text/css">
+		header li{
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: darkseagreen;
+			border: 1px solid grey;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1.5px;
+		}
+		a:hover, a.active{
+			background-color: darkcyan;
+		}
+		header li:nth-child(2){
+			font-size: 22px
+		}
+		section div:nth-child(odd){
+			background-color: gray;
+		}
+		section div:nth-child(8):hover{
+			background-color: magenta;
+			cursor: no-drop;
+		}
+	</style>
+</head>
+<body>
+	<h1>pseudo class selector</h1>
+
+	<header>
+		<ul>
+			<li> <a href="/">Home</a></li>
+			<li><a href="https://www.rapidtables.com/web/css/css-color.html" target="_blank">css colours</a></li>
+			<li><a href="https://www.w3schools.com/css/css_font.asp" target="_blank">css fonts</a></li>
+		</ul>
+	</header>
+	<section>
+		<div>div1</div>
+		<div>div2</div>
+		<div>div3</div>
+		<div>div4</div>
+		<div>div5</div>
+		<div>div6</div>
+		<div>div7</div>
+		<div>div8</div>
+		<div>div9</div>
+		<div>div10</div>
+		<div>div11</div>
+		<div>div12</div>
+		<div>div13</div>
+		<div>div14</div>
+		<div>div15</div>
+	</section> 
+</body>
+</html>
