@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>box-model</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0
+		}
+		body{
+
+			background-color: gray;
+
+		}
+		#box{
+			background-color: blue;
+			padding: 15px;
+			border: 5px dashed seagreen;
+			margin-top: 45px;
+			width: 300px;
+			height: 100px;
+			box-sizing: border-box;
+			text-align: center;
+			overflow: auto;
+			}
+		#content{
+			background-color: #90EE90;
+			padding: 10px;
+		}
+		h1{
+			margin-bottom: 35px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Box model</h1>
+	<div id="box">
+		<div id="content">Just some random content hereJust some random content hereJust some random content hereJust some random content here Just some random content hereJust some random content hereJust some random content hereJust some random content here
+		</div>
+	</div>
+</body>
+</html>
